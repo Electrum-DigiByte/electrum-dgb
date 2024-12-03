@@ -18,7 +18,7 @@ Features
 - **Lightweight Design**: A client-side wallet that connects directly to the DigiByte blockchain.
 - **Open Source**: Fully transparent and open-source software, available for auditing and customization.
 
-Documentation
+
 =============
 
 Contributing
