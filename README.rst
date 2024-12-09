@@ -1,32 +1,74 @@
-.. image:: https://api.cirrus-ci.com/github/spesmilo/electrumx.svg?branch=master
-    :target: https://cirrus-ci.com/github/spesmilo/electrumx
-.. image:: https://coveralls.io/repos/github/spesmilo/electrumx/badge.svg
-    :target: https://coveralls.io/github/spesmilo/electrumx
+.. image:: https://img.shields.io/github/license/Electrum-Tether/electrum-usdt
+   :target: https://github.com/Electrum-DigiByte/electrum-dgb/blob/master/LICENCE
+   :alt: License
 
-===============================================
-Electrum DigiByte (DGB) Wallet
-===============================================
+.. image:: https://img.shields.io/github/v/release/Electrum-Tether/electrum-usdt
+   :target: https://github.com/Electrum-DigiByte/electrum-dgb/releases/tag/v4.2.7
+   :alt: Latest Release
 
+⚡ Electrum-DGB - Lightweight Digibyte Wallet
+==========================================
 
-**Electrum DigiByte Wallet** is a lightweight and secure wallet designed specifically for DigiByte (DGB). Built on the proven Electrum framework, it combines speed, reliability, and robust security features to provide a seamless user experience.
+Electrum DGB is a lightweight wallet for Digibyte cryptocurrency. It provides a simple, fast, and secure way to manage your DGB tokens. Electrum DGB is designed to be reliable and easy to use across multiple platforms.
 
+✨ Features
+=========
+- **Fast Transactions**: Leverages the speed of Digibyte's blockchain for quick and efficient transactions.
+- **Lightweight**: No need to download the entire blockchain, making it ideal for fast setup and use.
+- **Multi-Platform Support**: Compatible with Windows, macOS, and Linux.
+- **Security**: Supports integration with hardware wallets for enhanced protection.
 
-Features
-=============
-- **Fast Transactions**: Experience rapid transaction speeds with minimal resource usage.
-- **Enhanced Security**: Includes multi-signature support and hardware wallet integration.
-- **Lightweight Design**: A client-side wallet that connects directly to the DigiByte blockchain.
-- **Open Source**: Fully transparent and open-source software, available for auditing and customization.
+📥 Download
+========
 
+.. raw:: html
 
-=============
+    <div align="center" dir="auto">
+      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7/MacOS-electrum-dgb.dmg" rel="nofollow">
+        <img src="https://img.icons8.com/ios-filled/100/4CAF50/mac-os.png" alt="Download for macOS" height="80" align="center" style="max-width: 100%; margin: 100px;">
+      </a>
+      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7/Windows-electrum-dgb.exe" rel="nofollow">
+        <img src="https://img.icons8.com/ios-filled/100/0078D7/windows-10.png" alt="Download for Windows" height="80" align="center" style="max-width: 100%; margin: 100px;">
+      </a>
+      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7/Linux-electrum-dgb.AppImage" rel="nofollow">
+        <img src="https://img.icons8.com/ios-filled/100/FF9800/linux.png" alt="Download for Linux" height="80" align="center" style="max-width: 100%; margin: 100px;">
+      </a>
+    </div>
 
-Contributing
-=============
-We welcome contributions! To report bugs, suggest features, or submit pull requests, please visit our `Issues <https://github.com/Electrum-DigiByte/electrum-dgb/issues>`_ page.
+🛠️ Getting Started
+===============
 
-License
-============= 
-Electrum DigiByte Wallet is released under the MIT License. See the `LICENSE <https://github.com/Electrum-DigiByte/electrum-dgb/blob/master/LICENCE>`_ file for details.
+Electrum-DGB is a pure python application. If you want to use the Qt interface, install the Qt dependencies:
+
+```sh
+sudo apt-get install python3-pyqt5
+```
+
+If you downloaded the official package (tar.gz), you can run Electrum-DGB from its root directory without installing it on your system; all the python dependencies are included in the 'packages' directory. To run Electrum-DGB from its root directory, just do:
+
+```sh
+./run_electrum
+```
+
+You can also install Electrum-DGB on your system, by running this command:
+
+```sh
+sudo apt-get install python3-setuptools
+python3 -m pip install .[fast]
+```
+
+This will download and install the Python dependencies used by Electrum-DGB instead of using the 'packages' directory. The 'fast' extra contains some optional dependencies that we think are often useful but they are not strictly needed.
+
+📜 License
+=======
+
+This project is licensed under the MIT License. The full text of the license can be found at the following link:
+
+`MIT License <https://github.com/Electrum-DigiByte/electrum-dgb/blob/master/LICENCE>`_
+
+👥 Community and Support
+=====================
+
+- **GitHub Issues**: Report bugs or request features by opening an issue in the `GitHub repository <https://github.com/Electrum-DigiByte/electrum-dgb/issues>`_.
 
 
