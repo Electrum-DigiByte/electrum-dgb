@@ -24,13 +24,13 @@ Electrum DGB is a lightweight wallet for Digibyte cryptocurrency. It provides a 
 .. raw:: html
 
     <div align="center" dir="auto">
-      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7/MacOS-electrum-dgb.dmg" rel="nofollow">
+      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7.1/MacOS-electrum-dgb.dmg" rel="nofollow">
         <img src="https://img.icons8.com/ios-filled/100/4CAF50/mac-os.png" alt="Download for macOS" height="80" align="center" style="max-width: 100%; margin: 100px;">
       </a>
-      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7/Windows-electrum-dgb.exe" rel="nofollow">
+      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7.1/Windows-electrum-dgb.exe" rel="nofollow">
         <img src="https://img.icons8.com/ios-filled/100/0078D7/windows-10.png" alt="Download for Windows" height="80" align="center" style="max-width: 100%; margin: 100px;">
       </a>
-      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7/Linux-electrum-dgb.AppImage" rel="nofollow">
+      <a href="https://github.com/Electrum-DigiByte/electrum-dgb/releases/download/v4.2.7.1/Linux-electrum-dgb.AppImage" rel="nofollow">
         <img src="https://img.icons8.com/ios-filled/100/FF9800/linux.png" alt="Download for Linux" height="80" align="center" style="max-width: 100%; margin: 100px;">
       </a>
     </div>
